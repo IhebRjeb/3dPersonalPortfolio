@@ -23,7 +23,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    decade,
+    sfm,
 } from "../assets/icons";
 
 export const skills = [
@@ -113,8 +115,8 @@ export const experiences = [
     {
         title: "SOFTWARE ENGINEER - INTERNSHIP",
         company_name: "SFM TECHNOLOGIES",
-        icon: starbucks,
-        iconBg: "#accbe1",
+        icon: sfm,
+        iconBg: "#fbc3bc",
         date: "June 2022 - August 2022",
         points: [
             "Iintegration of machine learning functionalities in a facial recognition project.",
@@ -125,8 +127,8 @@ export const experiences = [
     {
         title: "SOFTWARE ENGINEER -  End of sudy internship",
         company_name: "DECADE",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: decade,
+        iconBg: "#a2d2ff",
         date: "Feb 2023 - May 2023",
         points: [
             "Implement a recommendation system on a ski equipment rental website using Rubix ML in PHP to create a configurable recommendation model based on rules.",
@@ -137,8 +139,8 @@ export const experiences = [
     {
         title: "SOFTWARE ENGINEER - FULLSTACK PHP",
         company_name: "DECADE",
-        icon: shopify,
-        iconBg: "#b7e4c7",
+        icon: decade,
+        iconBg: "#a2d2ff",
         date: "Jul 2023 - Fev 2024",
         points: [
             "Use of Symfony and Sylius PHP frameworks for backend development of ecommerce solutions (INTERSPORT RENT).",
@@ -150,7 +152,7 @@ export const experiences = [
     {
         title: "SOFTWARE ENGINEER - FULLSTACK SFCC",
         company_name: "DECADE",
-        icon: meta,
+        icon: decade,
         iconBg: "#a2d2ff",
         date: "Jan 2023 - Present",
         points: [
