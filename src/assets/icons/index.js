@@ -28,6 +28,12 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import decade from './decade.png'
 import sfm from './sfm.png'
+import docker from './docker.png'
+import drupal from './drupal.png'
+import symfony from './symfony.png'
+import sylius from './sylius.png'
+import php from './php.png'
+import gitlab from './gitlab.png'
 
 export {
     css,
@@ -59,5 +65,11 @@ export {
     soundon,
     soundoff,
     decade,
-    sfm
+    sfm,
+    docker,
+    drupal,
+    symfony,
+    sylius,
+    php,
+    gitlab
 }

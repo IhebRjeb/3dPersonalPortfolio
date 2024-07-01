@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, magic, pain, headtohead } from "../assets/images";
 import {
     car,
     contact,
@@ -26,6 +26,12 @@ import {
     typescript,
     decade,
     sfm,
+    docker,
+    drupal,
+    php,
+    symfony,
+    sylius,
+    gitlab
 } from "../assets/icons";
 
 export const skills = [
@@ -65,13 +71,13 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
+        imageUrl: docker,
+        name: "Docker",
+        type: "DevOps",
     },
     {
-        imageUrl: mui,
-        name: "Material-UI",
+        imageUrl: drupal,
+        name: "Drupal",
         type: "Frontend",
     },
     {
@@ -108,6 +114,21 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: php,
+        name: "Php",
+        type: "Frontend & Backend",
+    },
+    {
+        imageUrl: symfony,
+        name: "Symfony",
+        type: "Backend",
+    },
+    {
+        imageUrl: sylius,
+        name: "Sylius",
+        type: "Backend",
     }
 ];
 
@@ -172,12 +193,17 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/IhebRjeb',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/iheb-rjeb/',
+    },
+    {
+        name: 'GitLab',
+        iconUrl: gitlab,
+        link: 'https://gitlab.com/rjeb',
     }
 ];
 
@@ -225,3 +251,40 @@ export const projects = [
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
+
+export const fragment = {
+    objectives: "Reflect emotions, turn emotions into art, showcase hidden talents.",
+    vision:
+      "Fragment is a personal artistic expression where I explore new art fields and reflect my emotions without limits. It encompasses fragments of cinematography, painting, poetry, and periods in my life.",
+    keywords: ["mirror", "broken", "community", "boyhood", "childhood", "dream", "storytelling", "past", "present", "future", "emotions", "acacia tree"],
+    theme: {
+      fragments: [
+        {
+          theme: "Friendship",
+          actions: ["Artwork", "T-shirt", "Tableau"],
+          story: "Video (Friendship)",
+        },
+        // Add more fragments as needed
+      ],
+    },
+    identity: "Real-life impact to own something tangible from my art.",
+  };
+  
+  export const fragmentGallery = [
+    {
+      id: 1,
+      imageUrl: pain,
+      altText: "Pain is love",
+    },
+    {
+      id: 2,
+      imageUrl: magic,
+      altText: "Magic machine",
+    },
+    {
+      id: 2,
+      imageUrl: headtohead,
+      altText: "HeadToHead",
+    },
+    // Add more images as needed
+  ];
